@@ -1,0 +1,21 @@
+# Netlify Static Site Configuration
+# Zero build command needed - pure static HTML, CSS & Vanilla JS
+
+[build]
+  publish = "."
+
+# Optimization headers
+[[headers]]
+  for = "/css/*"
+  [headers.values]
+    Cache-Control = "public, max-age=2592000, immutable"
+
+[[headers]]
+  for = "/js/*"
+  [headers.values]
+    Cache-Control = "public, max-age=2592000, immutable"
+
+[[headers]]
+  for = "/images/*"
+  [headers.values]
+    Cache-Control = "public, max-age=2592000, immutable"

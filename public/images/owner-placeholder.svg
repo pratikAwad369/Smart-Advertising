@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="100%" height="100%">
+  <!-- TODO: Replace this placeholder with the actual photo of the owner/founder of Smart Advertising -->
+  <defs>
+    <linearGradient id="ownerGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1E3A8A"/>
+      <stop offset="100%" stop-color="#3B82F6"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" rx="200" fill="url(#ownerGrad)"/>
+  <circle cx="200" cy="150" r="65" fill="#DBEAFE"/>
+  <path d="M90 340 C110 240, 290 240, 310 340 Z" fill="#DBEAFE"/>
+  <circle cx="200" cy="140" r="45" fill="#BFDBFE"/>
+  <rect x="100" y="320" width="200" height="30" rx="15" fill="#1E40AF" fill-opacity="0.8"/>
+  <text x="200" y="340" fill="#FFFFFF" font-family="system-ui, sans-serif" font-size="12" font-weight="bold" text-anchor="middle">OWNER / FOUNDER PHOTO</text>
+</svg>

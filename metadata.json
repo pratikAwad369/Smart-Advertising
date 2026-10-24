@@ -1,0 +1,6 @@
+{
+  "name": "Smart Advertising Flex Printing",
+  "description": "Production-ready, mobile-first website for Smart Advertising Flex Printing in Punawale, Pune, featuring instant WhatsApp quote estimator, service catalog, and gallery.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
